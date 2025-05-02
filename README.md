@@ -42,10 +42,6 @@ Open-vocabulary detection allows object detectors to respond to *any* text promp
 
 This is enabled by **CLIP**-style models, which align images and text in a shared embedding space.
 
-> You can now ask the model:
-> - “Is there a saxophone in this photo?”
-> - “Find the yellow umbrella.”
-> - “Where’s the purple alien plushie?”
 
 ---
 
