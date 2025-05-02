@@ -74,7 +74,6 @@ When no prompt is given, the model *autonomously guesses* object classes using l
 ### 🧪 Use Cases
 
 - **Text Prompts**:  
-```python
 prompts = ["white dog", "black dog"]
 > ![dogs_yoloee](./images_out/dogs_yoloe.png)
 
@@ -96,3 +95,14 @@ Object detection has evolved:
 In the real world, where object variety is infinite, **YOLOE’s ability to detect rare or unseen items using just a word or image is a huge leap forward**.
 
 As we move toward general and adaptable AI systems, **open-vocabulary detection is the future**.
+
+---
+
+## 👤 About Me
+
+I'm **Nikko**, a Machine Learning Engineer and AI enthusiast with a Master's degree in Artificial Intelligence from the University of the Philippines Diliman. With over a decade of experience in ICT consulting and telecommunications, I now specialize in **vision-language models**, **LLMs**, and **generative AI applications**.
+
+I'm passionate about creating systems where AI and humans can collaborate seamlessly — working toward a future where **smart cities** and intelligent automation become reality.    
+
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/nikkoyabut/).
+
