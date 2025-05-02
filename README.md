@@ -55,12 +55,6 @@ This is enabled by **CLIP**-style models, which align images and text in a share
 
 - Instead of fixed class labels, you can use **natural language prompts**.
 - It uses an image encoder + text encoder to compare visual features to *any* label you provide.
-
-> Prompt Examples:
-> - `"banana slicer"`
-> - `"green fire hydrant"`
-> - `"drone with camera"`
-
 ---
 
 ## 🧠 YOLOE: The Next Level
@@ -85,35 +79,12 @@ When no prompt is given, the model *autonomously guesses* object classes using l
 - **Text Prompts**:  
 ```python
 prompts = ["white dog", "black dog"]
-### 🖼️ Image Prompts
-Give it a visual reference — it finds similar objects.
+> ![dogs_yoloee](./images_out/dogs_yoloe.png)
+
 
 ### 🧠 No Prompts (LRPC Mode)
 YOLOE will use internal embeddings to detect from 4,000+ learned categories.
-
----
-
-## 🆚 YOLO vs YOLOE Example
-
-**YOLO Output**  
-Boxes detected as: `"dog"` (class 16 in COCO)
-
-**YOLOE Output with Prompt**  
-Boxes detected as: `"white dog"`, `"black dog"`
-
-> ✅ YOLOE shows its open-vocabulary strength by differentiating between similar objects using text prompts.
-
----
-
-## 🎥 YOLOE in Action
-
-**Text Prompting (RepRTA)**  
-Prompt the model to look for specific new concepts.
-
-**See Everything (LRPC)**  
-No prompt needed — YOLOE detects anything visible using its large vocabulary.
-
-📄 *Full list of 4,000+ classes available in LRPC mode* [link placeholder].
+> ![bini_yoloee](./images_out/bini_yoloe.png)
 
 ---
 
