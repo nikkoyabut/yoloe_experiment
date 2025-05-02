@@ -33,6 +33,7 @@ However, YOLO operates under a **closed-world assumption**, which means:
 ### 🚫 Real-world Problem: Misclassification
 
 If you feed it an image of a **camel**, YOLO might label it as a **horse**, simply because "camel" isn't in the COCO dataset.
+![camel](./images_out/camel.png)
 
 ---
 
