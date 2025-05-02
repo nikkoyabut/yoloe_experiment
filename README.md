@@ -14,6 +14,8 @@ Object detection = classification + localization.
 It’s about not just knowing *what’s* in an image, but also *where* it is.
 
 > 🖼️ Example: spotting a dog in a photo and drawing a box around it.
+> ![dogs](./images_out/dogs_det.png)
+
 
 ---
 
